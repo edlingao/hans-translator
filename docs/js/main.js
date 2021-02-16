@@ -1,5 +1,5 @@
 import translate from './translator.js';
-
+//Some comment so i can commit something
 const main = () => {
     const input = document.querySelector('#morse-code');
     const chatContainer = document.querySelector('.chat-container')
