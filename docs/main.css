@@ -90,4 +90,7 @@ body{
     body{
         padding: 0;
     }
+    #morse-code{
+        font-size: 1rem;
+    }
 }
