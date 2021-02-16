@@ -6,7 +6,7 @@ function translate(morseCodeString){
     const translation = words.map( word => {
         const letters = word.split(' ');
         const translatedWord = letters.filter( letter => letter != '').map( letter =>{
-            translatedString += `${morseCodeFile[letter]}`
+            translatedString += `${morseCodeFile[letter] != null ? morseCodeFile[letter] : ''}`
         })
         translatedString += ' ';
         return translatedWord;
